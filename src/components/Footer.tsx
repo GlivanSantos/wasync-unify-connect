@@ -1,9 +1,9 @@
 const Footer = () => {
   const footerLinks = [
-    { label: 'Wasync Omnichannel', href: '#omnichannel' },
-    { label: 'Integrações', href: '#integrations' },
-    { label: 'Recursos', href: '#features' },
-    { label: 'FAQ', href: '#faq' },
+    { label: 'Vision Chat Omnichannel', href: '/platforms' },
+    { label: 'Integrações', href: '/integrations' },
+    { label: 'Recursos', href: '/features' },
+    { label: 'FAQ', href: '/faq' },
     { label: 'Contato', href: '#contact' },
   ];
 
@@ -15,10 +15,10 @@ const Footer = () => {
           <div className="flex items-center space-x-3">
             <img 
               src="/lovable-uploads/ff89c713-1895-46b0-9cf1-9bb938336517.png" 
-              alt="Wasync Logo" 
+              alt="Vision Chat.ia Logo" 
               className="w-8 h-8 rounded-full"
             />
-            <span className="text-xl font-bold text-gradient-brand">Wasync</span>
+            <span className="text-xl font-bold text-gradient-brand">Vision Chat.ia</span>
           </div>
 
           {/* Navigation Links */}
@@ -36,7 +36,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-foreground/60 text-sm">
-            © 2024 Wasync. Todos os direitos reservados.
+            © 2024 Vision Chat.ia. Todos os direitos reservados.
           </div>
         </div>
       </div>

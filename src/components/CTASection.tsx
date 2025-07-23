@@ -5,7 +5,7 @@ const CTASection = () => {
   const platforms = [
     {
       icon: MessageSquare,
-      title: 'Wasync Omnichannel',
+      title: 'Vision Chat Omnichannel',
       description: 'Centralize todas as conversas em um só lugar',
       features: ['WhatsApp Business', 'Instagram', 'Facebook', 'Telegram']
     },
@@ -36,7 +36,7 @@ const CTASection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             Descubra Plataformas Da{' '}
-            <span className="text-gradient-brand">Wasync</span>{' '}
+            <span className="text-gradient-brand">Vision Chat.ia</span>{' '}
             Para O Dia Dia De Sua Empresa.
           </h2>
           <p className="text-lg text-foreground/80 max-w-3xl mx-auto">

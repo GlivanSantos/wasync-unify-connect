@@ -45,14 +45,14 @@ const Login = () => {
               <div className="relative">
                 <img 
                   src="/lovable-uploads/ff89c713-1895-46b0-9cf1-9bb938336517.png" 
-                  alt="Wasync Logo" 
+                  alt="Vision Chat.ia Logo" 
                   className="w-16 h-16 rounded-full"
                 />
                 <div className="absolute inset-0 rounded-full animate-pulse-glow"></div>
               </div>
             </div>
             <h1 className="text-2xl font-bold text-foreground mb-2">
-              Entrar no <span className="text-gradient-brand">Wasync</span>
+              Entrar no <span className="text-gradient-brand">Vision Chat.ia</span>
             </h1>
             <p className="text-foreground/70">
               Acesse sua plataforma de comunicação

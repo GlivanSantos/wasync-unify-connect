@@ -66,7 +66,7 @@ const BenefitsSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Porque escolher a{' '}
-            <span className="text-gradient-brand">Wasync?</span>
+            <span className="text-gradient-brand">Vision Chat.ia?</span>
           </h2>
           <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
             Descubra os benefícios que tornam nossa plataforma a escolha ideal para sua empresa

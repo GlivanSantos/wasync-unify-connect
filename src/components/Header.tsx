@@ -8,11 +8,11 @@ const Header = () => {
   const navigate = useNavigate();
 
   const menuItems = [
-    { label: 'Plataformas', href: '#platforms' },
-    { label: 'Integrações', href: '#integrations' },
-    { label: 'Recursos', href: '#features' },
-    { label: 'FAQ', href: '#faq' },
-    { label: 'Documentação', href: '#docs' },
+    { label: 'Plataformas', href: '/platforms' },
+    { label: 'Integrações', href: '/integrations' },
+    { label: 'Recursos', href: '/features' },
+    { label: 'FAQ', href: '/faq' },
+    { label: 'Documentação', href: '/docs' },
   ];
 
   return (
@@ -24,12 +24,12 @@ const Header = () => {
             <div className="relative">
               <img 
                 src="/lovable-uploads/ff89c713-1895-46b0-9cf1-9bb938336517.png" 
-                alt="Wasync Logo" 
+                alt="Vision Chat.ia Logo" 
                 className="w-10 h-10 rounded-full"
               />
               <div className="absolute inset-0 rounded-full animate-pulse-glow"></div>
             </div>
-            <span className="text-2xl font-bold text-gradient-brand">Wasync</span>
+            <span className="text-2xl font-bold text-gradient-brand">Vision Chat.ia</span>
           </Link>
 
           {/* Desktop Navigation */}

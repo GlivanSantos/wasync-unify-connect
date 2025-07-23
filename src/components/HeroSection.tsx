@@ -26,7 +26,7 @@ const HeroSection = () => {
               em uma única plataforma
             </h1>
             <div className="text-2xl md:text-3xl font-bold text-gradient-brand">
-              Wasync
+              Vision Chat.ia
             </div>
             <p className="text-lg text-foreground/80 max-w-2xl">
               Eleve a eficiência do dia a dia dos seus usuários com nossas plataformas
@@ -52,7 +52,7 @@ const HeroSection = () => {
             {/* Simulated Dashboard */}
             <div className="space-y-4">
               <div className="flex items-center justify-between">
-                <h3 className="text-lg font-semibold">Dashboard Wasync</h3>
+                <h3 className="text-lg font-semibold">Dashboard Vision Chat.ia</h3>
                 <div className="flex space-x-2">
                   <div className="w-3 h-3 bg-red-500 rounded-full"></div>
                   <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
