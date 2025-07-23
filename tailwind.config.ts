@@ -22,8 +22,16 @@ export default {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
+				background: {
+					DEFAULT: 'hsl(var(--background))',
+					secondary: 'hsl(var(--background-secondary))'
+				},
 				foreground: 'hsl(var(--foreground))',
+				brand: {
+					primary: 'hsl(var(--brand-primary))',
+					secondary: 'hsl(var(--brand-secondary))',
+					tertiary: 'hsl(var(--brand-tertiary))'
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -50,7 +58,8 @@ export default {
 				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
+					foreground: 'hsl(var(--card-foreground))',
+					glass: 'hsl(var(--card-glass))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -62,6 +71,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-brand': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-accent': 'var(--gradient-accent)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'brand': 'var(--shadow-brand)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
